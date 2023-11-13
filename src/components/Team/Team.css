@@ -1,0 +1,202 @@
+.team {
+  width: 100%;
+  height: 240vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+    align-items: center; */
+  background-color: rgb(110, 109, 109);
+  color: #fff;
+  text-align: center;
+}
+
+/* .activity-row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 160px;
+  gap: 1rem;
+  margin: 1rem auto;
+  padding: 4rem 1rem;
+  /* justify-content: center; */
+
+.activity-row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 2rem auto;
+}
+
+.activity-row1 .activity-card0 {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: rgba(243, 242, 242, 0.5) 0px 2px 8px 0px;
+  margin: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.activity-row1 .activity-card0 img {
+  width: 130px;
+  height: 130px;
+  margin-top: 20px;
+  object-fit: cover;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+/* .card-social {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+   */
+
+.activity-row2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin: 1rem;
+  padding: 2rem 1rem;
+}
+.activity-row3 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin: 1rem;
+  padding: 4rem 1rem;
+}
+.activity-row4 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin: 1rem;
+  padding: 4rem 1rem;
+}
+.activity-card1 {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: rgba(243, 242, 242, 0.5) 0px 2px 8px 0px;
+  margin: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.activity-card0 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: rgba(243, 242, 242, 0.5) 0px 2px 8px 0px;
+  margin: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.activity-card1 img {
+  width: 130px;
+  height: 130px;
+  margin-top: 20px;
+  object-fit: cover;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.activity-card0 img {
+  width: 130px;
+  height: 130px;
+  margin-top: 20px;
+  object-fit: cover;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.card-social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.activity-card1 .card-content {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.activity-row4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 2rem auto;
+  background-color: black;
+}
+
+.activity-row4 .activity-card0 {
+  border: 1px solid #ccc;
+  /* padding: 20px; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: rgba(243, 242, 242, 0.5) 0px 2px 8px 0px;
+  /* margin: 0.5rem; */
+}
+.activity-row4 .activity-card0 img {
+  width: 130px;
+  height: 130px;
+  margin-top: 20px;
+  object-fit: cover;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.team p:nth-of-type(1) {
+  font-size: 4rem;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+.team p:nth-of-type(2) {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width:900px) {
+  .activity-row2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin: 1rem;
+    padding: 4rem 1rem;
+  }
+  .team{
+    height: 280vh;
+  }
+}
+
+
+@media screen and (max-width:500px) {
+  .activity-row2 {
+    display: grid;
+    grid-template-columns:1fr;
+    gap: 1rem;
+    margin: 1rem;
+    padding: 2rem 1rem;
+  }
+  .team{
+    height: 350vh;
+  }
+}
